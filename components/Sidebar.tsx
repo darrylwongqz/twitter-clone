@@ -13,9 +13,9 @@ import SidebarRow from './SidebarRow'
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center col-span-2 px-4 md:items-start">
       <img
-        className="w-10 h-10"
+        className="w-10 h-10 m-3"
         src="/dezeen_twitter-bird.webp"
         alt="twitter logo"
       />
